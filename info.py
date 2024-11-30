@@ -131,7 +131,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', '3208a6cfddbc086c5954c12401685faa6e78e7a8')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_Download_Links') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
@@ -161,7 +161,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
